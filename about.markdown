@@ -1,18 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
+![A smiling, bearded man in a brown sweater](/images/headshot.jpg){:style="float: left; padding-right: 10px" height="30%" width="30%"}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hi, I'm Joe Hilleary a data scientist, digital humanist, and aspiring public interest technologist.
