@@ -30,7 +30,7 @@ linkedin_username: joe-hilleary-501ab9156
 github_username:  jchill-git
 
 # Build settings
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "contrast"
 plugins:
