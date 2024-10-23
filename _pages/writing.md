@@ -4,4 +4,4 @@ title: Writing
 permalink: /writing/
 ---
 
-Trying to write things here. 12345
+Under construction, check in later.
