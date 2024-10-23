@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-author_profile: true
 ---
 
 <!-- <img title="a title" alt="Alt text" src="images/headshot.jpg" width="400" height="400"> -->
