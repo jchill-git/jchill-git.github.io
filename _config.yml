@@ -39,6 +39,15 @@ markdown: kramdown
 include: 
   - _pages
 
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -46,7 +55,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
 
 author:
   name   : "Joe Hilleary"
