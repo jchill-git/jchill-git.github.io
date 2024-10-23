@@ -6,4 +6,4 @@ layout: collection
 ---
 
 <!-- <img title="a title" alt="Alt text" src="images/headshot.jpg" width="400" height="400"> -->
-Hi, testing added
+Under construction, check in later.
