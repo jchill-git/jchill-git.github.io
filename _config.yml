@@ -36,7 +36,8 @@ minimal_mistakes_skin: "contrast"
 
 markdown: kramdown
 
-include: ["_pages"]
+include: 
+  - _pages
 
 plugins:
   - jekyll-paginate
