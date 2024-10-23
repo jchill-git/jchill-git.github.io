@@ -4,4 +4,6 @@
 
 layout: default
 ---
-Hi, welcome to my site! Quick test
+
+<img title="a title" alt="Alt text" src="images/headshot.jpg">
+Hi, 
