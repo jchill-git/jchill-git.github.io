@@ -7,4 +7,4 @@ author_profile: true
 ---
 
 <!-- <img title="a title" alt="Alt text" src="images/headshot.jpg" width="400" height="400"> -->
-Hi, testing added text
+Hi, testing added
