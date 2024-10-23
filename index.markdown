@@ -5,5 +5,5 @@
 layout: default
 ---
 
-<img title="a title" alt="Alt text" src="images/headshot.jpg">
-Hi, 
+<img title="a title" alt="Alt text" src="images/headshot.jpg" width="200" height="200">
+/t Hi, 
