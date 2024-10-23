@@ -36,6 +36,8 @@ minimal_mistakes_skin: "contrast"
 
 markdown: kramdown
 
+include: ["_pages"]
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
