@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: collection
 title: Writing
 permalink: /writing/
 ---
 
-Trying to write things here. 1234
+Trying to write things here. 12345
