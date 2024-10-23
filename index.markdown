@@ -4,4 +4,4 @@
 
 layout: default
 ---
-Hi, welcome to my site!
+Hi, welcome to my site! Quick test
