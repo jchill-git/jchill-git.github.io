@@ -7,6 +7,5 @@ author_profile: false
 header:
   overlay_color: "#333"
 ---
-Joe Hilleary
 
 Under construction, check in later.
