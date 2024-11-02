@@ -59,20 +59,17 @@ plugins:
 author:
   name   : "Joe Hilleary"
   avatar : "/images/headshot.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Data Scientist | Digital Humanist."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/jchill-git/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "hhttps://www.linkedin.com/in/joe-hilleary-501ab9156/"
 
 footer:
   links:
@@ -81,10 +78,7 @@ footer:
       url: "https://www.linkedin.com/in/joe-hilleary-501ab9156/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: https://github.com/jchill-git/"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

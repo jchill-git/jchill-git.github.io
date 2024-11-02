@@ -4,6 +4,7 @@
 
 layout: collection
 author_profile: True
+ermalink: /about/
 ---
 ## Some stuff I wrote about myself.
 
