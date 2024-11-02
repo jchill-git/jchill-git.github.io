@@ -4,7 +4,9 @@
 
 layout: collection
 author_profile: false
+header:
+  overlay_color: "#333"
 ---
+Joe Hilleary
 
-<!-- <img title="a title" alt="Alt text" src="images/headshot.jpg" width="400" height="400"> -->
 Under construction, check in later.
