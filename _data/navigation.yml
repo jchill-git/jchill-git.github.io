@@ -1,15 +1,15 @@
 main:
   - title: About
     url: /about/
-    excerpt: "Some stuff I wrote about myself"
+    excerpt: "Some stuff I wrote about myself."
 
 
   - title: Projects
     url: /projects/
-    excerpt: "Some stuff I'm working on"
+    excerpt: "Some stuff I made."
 
 
   - title: Writing
     url: /writing/
-    excerpt: "Some stuff I wrote"
+    excerpt: "Some stuff I wrote."
 
