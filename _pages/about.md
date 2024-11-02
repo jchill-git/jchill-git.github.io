@@ -3,8 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: collection
+title: About
 author_profile: True
-ermalink: /about/
+permalink: /about/
 ---
 ## Some stuff I wrote about myself.
 
