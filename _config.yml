@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Joe Hilleary"
   avatar : "/images/headshot.jpg"
-  bio    : "Data Scientist | Digital Humanist."
+  bio    : "Data Scientist \| Digital Humanist"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
