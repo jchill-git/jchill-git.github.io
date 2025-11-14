@@ -1,0 +1,17 @@
+<footer>
+    <div class="container">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        <div class="social-links">
+            {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+            {% endif %}
+            {% if site.linkedin_username %}
+            <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+            {% endif %}
+            {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+            {% endif %}
+            <a href="mailto:{{ site.email }}">Email</a>
+        </div>
+    </div>
+</footer>
