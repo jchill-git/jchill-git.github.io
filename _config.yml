@@ -20,8 +20,8 @@
 
 title: Joe Hilleary
 email: 
-description: >- # this means to ignore newlines until "baseurl:"
-  Here are some things about me:
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Here are some things about me:
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jhilleary.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "jchill-git/jchill-git.github.io"
@@ -33,7 +33,6 @@ github_username:  jchill-git
 # theme: minimal-mistakes-jekyll
 #remote_theme: mmistakes/minimal-mistakes
 #minimal_mistakes_skin: "contrast"
-
 theme: minima
 
 markdown: kramdown
@@ -79,12 +78,20 @@ defaults:
 
 # Navigation
 nav_links:
-  - title: Portfolio
-    url: /
   - title: About
     url: /about
+  - title: Projects
+    url: /projects
   - title: Blog
     url: /blog
+  - title: Resume
+    url: /resume
+
+header_pages:
+  - index.html
+  - portfolio.html
+  - blog.html
+  - resume.html
 
   # Social links
 github_username: jchill-git

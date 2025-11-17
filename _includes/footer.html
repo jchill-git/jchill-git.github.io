@@ -1,0 +1,56 @@
+<footer class="site-footer h-card">
+    <div class="wrapper">
+      <div class="footer-content">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        
+        <div class="social-links">
+          {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+          {% endif %}
+          {% if site.twitter_username %}
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+          {% endif %}
+          {% if site.email %}
+          <a href="mailto:{{ site.email }}">Email</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <style>
+  .site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: 30px 0;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    color: #2a7ae2;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  </style>

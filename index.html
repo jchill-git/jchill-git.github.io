@@ -1,14 +1,47 @@
 ---
 layout: default
 title: About Me
+order: 1
 ---
-<div class="hero">
-    <div class="container">
-        <h1>About me</h1>
+
+<style>
+    .about-header {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #e8e8e8;
+    }
+    
+    .about-header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    
+    .about-header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    
+    @media (max-width: 600px) {
+      .about-header {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+</style>
+    
+    <div class="about-header">
+      <img src="/assets/images/TuftsFall23_027.jpg" alt="Your Name">
+      <h1>About Me</h1>
+    </div>
+
         <h2>Some stuff I wrote about myself</h2>
         <p>I am a public interest technologist. I try my best to build data-driven systems that serve our communities and to think about how to mitigate and avoid the harms that can inadvertently stem from such systems.</p>
         <p>Originally trained as a digital humanist, I enjoy applying a computational lens to humanist questions and a humanist lens to computational questions.</p>
         <p>Currently, I work as a data scientist at the T, where I build models and visualizations to support the operations of America’s fourth largest transit system.</p>
         <p>This website is a place for me to share my personal projects and thoughts and does not express the views or opinions of my employer.</p>
-    </div>
-</div>
