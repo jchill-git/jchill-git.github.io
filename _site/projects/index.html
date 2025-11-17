@@ -46,6 +46,21 @@
     width: 100% !important;
 }
 
+/* Tablet: 2 columns */
+@media (max-width: 1024px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
 .portfolio-item {
     position: relative !important;
     display: block !important;
@@ -120,93 +135,13 @@
         <h2 class="section-title">Some stuff I've made</h2>
         <div class="portfolio-grid">
             
-            <a href="/projects/alignmentstudy/" class="portfolio-item">
-                
-                <img src="/assets/images/halloween_13746239.png" alt="Translation Alignment User Study" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>Translation Alignment User Study</p>
-                </div>
-            </a>
             
-            <a href="/projects/arabicenrichments/" class="portfolio-item">
+            <a href="/projects/harrypotter/" class="portfolio-item">
                 
-                <img src="/assets/images/factory_13571875.png" alt="Pipeline for Enriching Digital Arabic" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>Pipeline for Enriching Digital Arabic</p>
-                </div>
-            </a>
-            
-            <a href="/projects/dragonfly/" class="portfolio-item">
-                
-                <img src="/assets/images/dragonfly_2907246.png" alt="Dragonfly" class="portfolio-image">
+                <img src="/assets/images/wizard_290401.png" alt="Harry Potter and the Goodreads Comments" class="portfolio-image">
                 
                 <div class="portfolio-overlay">
-                    <p>Dragonfly</p>
-                </div>
-            </a>
-            
-            <a href="/projects/gwann/" class="portfolio-item">
-                
-                <img src="/assets/images/tower_16443041.png" alt="Predicting Boston Construction" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>Predicting Boston Construction</p>
-                </div>
-            </a>
-            
-            <a href="/projects/mbtacommunities/" class="portfolio-item">
-                
-                <img src="/assets/images/vacation_2278467.png" alt="MBTA Communities Act" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>MBTA Communities Act</p>
-                </div>
-            </a>
-            
-            <a href="/projects/omaribnsaid/" class="portfolio-item">
-                
-                <img src="/assets/images/feather_1132390.png" alt="Autobiography of Omar ibn Said" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>Autobiography of Omar ibn Said</p>
-                </div>
-            </a>
-            
-            <a href="/projects/timbuktu/" class="portfolio-item">
-                
-                <img src="/assets/images/timbuktu_3493608.png" alt="Tarikh As-Sudan" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>Tarikh As-Sudan</p>
-                </div>
-            </a>
-            
-            <a href="/projects/udlalignment/" class="portfolio-item">
-                
-                <img src="/assets/images/chain_14763934.png" alt="UD Tree Alignment" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>UD Tree Alignment</p>
-                </div>
-            </a>
-            
-            <a href="/projects/vast2017mini/" class="portfolio-item">
-                
-                <img src="/assets/images/bird_10172850.png" alt="Suspicious Behavior at the Lekagul Preserve" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>Suspicious Behavior at the Lekagul Preserve</p>
-                </div>
-            </a>
-            
-            <a href="/projects/isnads/" class="portfolio-item">
-                
-                <img src="/assets/images/quran_3858812.png" alt="Isnad Disambiguation" class="portfolio-image">
-                
-                <div class="portfolio-overlay">
-                    <p>Isnad Disambiguation</p>
+                    <p>Harry Potter and the Goodreads Comments</p>
                 </div>
             </a>
             
@@ -219,12 +154,93 @@
                 </div>
             </a>
             
-            <a href="/projects/harrypotter/" class="portfolio-item">
+            <a href="/projects/isnads/" class="portfolio-item">
                 
-                <img src="/assets/images/wizard_290401.png" alt="Harry Potter and the Goodreads Comments" class="portfolio-image">
+                <img src="/assets/images/quran_3858812.png" alt="Isnad Disambiguation" class="portfolio-image">
                 
                 <div class="portfolio-overlay">
-                    <p>Harry Potter and the Goodreads Comments</p>
+                    <p>Isnad Disambiguation</p>
+                </div>
+            </a>
+            
+            <a href="/projects/vast2017mini/" class="portfolio-item">
+                
+                <img src="/assets/images/bird_10172850.png" alt="Suspicious Behavior at the Lekagul Preserve" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>Suspicious Behavior at the Lekagul Preserve</p>
+                </div>
+            </a>
+            
+            <a href="/projects/udlalignment/" class="portfolio-item">
+                
+                <img src="/assets/images/chain_14763934.png" alt="UD Tree Alignment" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>UD Tree Alignment</p>
+                </div>
+            </a>
+            
+            <a href="/projects/timbuktu/" class="portfolio-item">
+                
+                <img src="/assets/images/timbuktu_3493608.png" alt="Tarikh As-Sudan" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>Tarikh As-Sudan</p>
+                </div>
+            </a>
+            
+            <a href="/projects/omaribnsaid/" class="portfolio-item">
+                
+                <img src="/assets/images/feather_1132390.png" alt="Autobiography of Omar ibn Said" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>Autobiography of Omar ibn Said</p>
+                </div>
+            </a>
+            
+            <a href="/projects/mbtacommunities/" class="portfolio-item">
+                
+                <img src="/assets/images/vacation_2278467.png" alt="MBTA Communities Act" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>MBTA Communities Act</p>
+                </div>
+            </a>
+            
+            <a href="/projects/gwann/" class="portfolio-item">
+                
+                <img src="/assets/images/tower_16443041.png" alt="Predicting Boston Construction" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>Predicting Boston Construction</p>
+                </div>
+            </a>
+            
+            <a href="/projects/dragonfly/" class="portfolio-item">
+                
+                <img src="/assets/images/dragonfly_2907246.png" alt="Dragonfly" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>Dragonfly</p>
+                </div>
+            </a>
+            
+            <a href="/projects/arabicenrichments/" class="portfolio-item">
+                
+                <img src="/assets/images/factory_13571875.png" alt="Pipeline for Enriching Digital Arabic" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>Pipeline for Enriching Digital Arabic</p>
+                </div>
+            </a>
+            
+            <a href="/projects/alignmentstudy/" class="portfolio-item">
+                
+                <img src="/assets/images/halloween_13746239.png" alt="Translation Alignment User Study" class="portfolio-image">
+                
+                <div class="portfolio-overlay">
+                    <p>Translation Alignment User Study</p>
                 </div>
             </a>
             

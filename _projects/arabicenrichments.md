@@ -4,6 +4,7 @@ description: A game in C or a for a STM32L152C Discovery board
 link: https://github.com/jchill-git/Game_for_STM32L152C
 date: 2022-04-20
 image: assets/images/factory_13571875.png
+order: 2
 ---
 
 Optional: Add more detailed content here about your project.

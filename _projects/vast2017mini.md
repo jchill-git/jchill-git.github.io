@@ -4,6 +4,7 @@ description: VAST 2017 Mini Challenge
 link: https://github.com/gabrielsessions/VASTly-Hyperbolical
 date: 2023-05-01
 image: /assets/images/bird_10172850.png
+order: 7
 ---
 
 Optional: Add more detailed content here about your project.

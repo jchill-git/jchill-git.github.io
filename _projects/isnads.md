@@ -4,6 +4,7 @@ description: Diambiguated scholars using graphs of tradional citations in Arabic
 link: https://github.com/jchill-git/isnad_intrigue/tree/main
 date: 2023-12-05
 image: assets/images/quran_3858812.png
+order: 9
 ---
 
 Optional: Add more detailed content here about your project.
