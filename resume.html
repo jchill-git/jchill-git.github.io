@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Resume
+title: C.V
 permalink: /resume/
 order: 4
 ---
+<h1 class="section-title" style="padding-top: 4rem;" >C.V.</h1>
+<h2 class="section-title">Some stuff I've done</h2>
+<p>If you want a more detailed overview of my work experience you can also download my resume, or check out my <a href="https://linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></p>
 
 <style>
 .resume-actions {
@@ -14,7 +17,7 @@ order: 4
 .download-btn {
   display: inline-block;
   background: #2563eb;
-  color: white;
+  color: white !important;
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -36,12 +39,407 @@ order: 4
 </style>
 
 <div class="resume-actions">
-  <a href="/assets/resume.pdf" class="download-btn" download>Download Resume (PDF)</a>
-  <a href="/assets/cv.pdf" class="download-btn" download>Download CV (PDF)</a>
+  <a href="{{ '/assets/documents/Joe Hilleary Resume Nov 2025.pdf' | relative_url }}" class="download-btn" download>Download Resume (PDF)</a>
+  <a href="{{ '/assets/documents/Joseph Hilleary Academic CV 11_25.pdf' | relative_url }}" class="download-btn" download>Download CV (PDF)</a>
 </div>
 
-<h2 style="text-align: center; margin-top: 3rem;">Resume Preview</h2>
-<embed src="/assets/resume.pdf" type="application/pdf" class="pdf-viewer">
 
-<h2 style="text-align: center; margin-top: 3rem;">CV Preview</h2>
-<embed src="/assets/cv.pdf" type="application/pdf" class="pdf-viewer">
+<!--CV Section-->
+<style>
+    .cv-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    
+    .cv-header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #2563eb;
+    }
+    
+    .cv-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #1f2937;
+    }
+    
+    .cv-contact {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      color: #6b7280;
+    }
+    
+    .cv-contact a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    
+    .cv-contact a:hover {
+      text-decoration: underline;
+    }
+    
+    .cv-section {
+      margin-bottom: 3rem;
+    }
+    
+    .cv-section h2 {
+      font-size: 1.75rem;
+      color: #2563eb;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #e5e7eb;
+    }
+    
+    .cv-entry {
+      margin-bottom: 2rem;
+    }
+    
+    .cv-entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+    }
+    
+    .cv-entry-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #1f2937;
+    }
+    
+    .cv-entry-location {
+      color: #6b7280;
+      font-style: italic;
+    }
+    
+    .cv-entry-subtitle-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+    
+    .cv-entry-subtitle {
+      color: #4b5563;
+    }
+    
+    .cv-entry-date {
+      color: #6b7280;
+      font-style: italic;
+      white-space: nowrap;
+    }
+    
+    .cv-entry-details {
+      color: #6b7280;
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+    
+    .cv-committee {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+    }
+    
+    .cv-award {
+      color: #2563eb;
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+    }
+    
+    .publication-authors {
+      color: #4b5563;
+      margin-bottom: 0.25rem;
+    }
+    
+    .publication-venue {
+      color: #6b7280;
+      font-style: italic;
+      margin-bottom: 0.5rem;
+    }
+    
+    .awards-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .awards-list li {
+      padding: 0.5rem 0;
+      color: #4b5563;
+    }
+    
+    @media (max-width: 768px) {
+      .cv-entry-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .cv-entry-subtitle-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .cv-header h1 {
+        font-size: 2rem;
+      }
+    }
+    </style>
+    
+    <div class="cv-container">
+    
+      <section class="cv-section">
+        <h2>Education</h2>
+        
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Tufts University</span>
+            <span class="cv-entry-location">Medford, MA</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">MS, Computer Science (Thesis with Highest Honors)</span>
+            <span class="cv-entry-date">2022-2024</span>
+          </div>
+          <div class="cv-entry-details">Advisor: Gregory Crane</div>
+          <div class="cv-entry-details">Data-Driven Decision-Making Fellow (NSF Research Trainee)</div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Bowdoin College</span>
+            <span class="cv-entry-location">Brunswick, ME</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">AB, History, Minor in Mathematics (<em>cum laude</em> with departmental honors)</span>
+            <span class="cv-entry-date">2016-2020</span>
+          </div>
+        </div>
+      </section>
+    
+      <section class="cv-section">
+        <h2>Professional and Research Experience</h2>
+        
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Massachusetts Bay Transportation Authority (OpsAnalytics)</span>
+            <span class="cv-entry-location">Boston, MA</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Data Analyst</span>
+            <span class="cv-entry-date">2024-Present</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">The Perseus Project</span>
+            <span class="cv-entry-location">Medford, MA</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Research Assistant</span>
+            <span class="cv-entry-date">2023-2024</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Tufts Data Intensive Studies Center</span>
+            <span class="cv-entry-location">Medford, MA</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Research Intern</span>
+            <span class="cv-entry-date">2022-2023</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Eckerson Group</span>
+            <span class="cv-entry-location">Hingham, MA (Remote)</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Senior Research Analyst</span>
+            <span class="cv-entry-date">2022</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Research Analyst</span>
+            <span class="cv-entry-date">2020-2021</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-header">
+            <span class="cv-entry-title">Osher Map Library</span>
+            <span class="cv-entry-location">Portland, ME</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Digital Humanities Intern</span>
+            <span class="cv-entry-date">2021-2022</span>
+          </div>
+        </div>
+      </section>
+    
+      <section class="cv-section">
+        <h2>Publications</h2>
+        
+        <div class="cv-entry">
+          <div class="cv-entry-title">Facilitating Language Hacking with Digital Tools: A Study of Translation Alignment</div>
+          <div class="publication-venue">Master's Thesis in Computer Science, 2024</div>
+          <div class="cv-committee">Committee Members: Gregory Crane, Remco Chang, Chiara Palladino</div>
+          <div class="cv-award">Highest Honors</div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-title">Traders and Troublemakers: Sovereignty in Southern Morocco at the End of the 19th Century</div>
+          <div class="publication-venue">Undergraduate Honors Thesis in History, 2020</div>
+          <div class="cv-committee">Committee Members: David Gordon (Chair), Pamela Klasova, Leah Zuo, Salar Mohandesi</div>
+          <div class="cv-award">Sherman David Spector of the Class of 1950 Award</div>
+        </div>
+      </section>
+    
+      <section class="cv-section">
+        <h2>Presentations</h2>
+        
+        <div class="cv-entry">
+          <div class="cv-entry-title">Fare Engagement Mobile Check-ins</div>
+          <div class="publication-authors"><b>Joseph Hilleary</b>, Juan Rivera, Stacia Hunter, Todd Glowac, Luke Beato</div>
+          <div class="publication-venue">Poster, MBTA Innovation Expo 2025</div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-title">Increasing the Accessibility of the Autobiography of Omar ibn Said through Translation Alignment</div>
+          <div class="publication-authors"><b>Joseph Hilleary</b></div>
+          <div class="publication-venue">Poster, Greater Boston Digital Research and Pedagogy Symposium 2024</div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-title">A Roadmap for the Automated Production of Enriched Reading Environments for Historical Arabic Texts</div>
+          <div class="publication-authors"><b>Joseph Hilleary</b></div>
+          <div class="publication-venue">Talk and Poster, Tufts University Graduate Research Symposium 2024</div>
+          <div class="cv-award">Best Poster, Runner-up Best Talk</div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-title">The Tricks of the Trade: Number-Narrative Mismatch in Data Journalism</div>
+          <div class="publication-authors">Harpreet Auby*, Adam Eichenwald*, Kyle Heuton*, <b>Joseph Hilleary</b>*, Bridget Moynihan*, Nick Rabb*, Ghazal Shabestanipour*, Shafiqul Islam, Remco Chang</div>
+          <div class="publication-venue">Talk, Data Intensive Studies Center & Tufts Institute for AI Symposium 2023</div>
+          <div class="cv-committee">*Equal contribution</div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-title">Suspicious Behavior at the Lekagul Preserve: 2017 VAST Mini-Challenge</div>
+          <div class="publication-authors"><b>Joseph Hilleary</b>*, Nirmiti Naik*, Gabriel Sessions*</div>
+          <div class="publication-venue">Talk, Tufts University CS 178 Visual Analytics Final Project Spring 2023</div>
+          <div class="cv-award">Best Presentation (Peer Award)</div>
+          <div class="cv-committee">*Equal contribution</div>
+        </div>
+      </section>
+    
+      <section class="cv-section">
+        <h2>Teaching</h2>
+        
+        <div class="cv-entry">
+
+            <div class="cv-entry-title">Tufts CS 150-DPS Data and Power: Surveillance</div>
+            <div class="cv-entry-subtitle-row">
+                <span class="cv-entry-subtitle">Teaching Assistant</span>
+                <span class="cv-entry-date">Fall 2023</span>
+            </div>
+          <div class="cv-entry-details">Professor: Nicholas Rabb</div>
+        </div>
+    
+        <div class="cv-entry">
+            <div class="cv-entry-title">Tufts UEP 239 Geospatial Programming with Python</div>
+            <div class="cv-entry-subtitle-row">
+                <span class="cv-entry-subtitle">Teaching Assistant</span>
+                <span class="cv-entry-date">Spring 2023</span>
+            </div>
+            <div class="cv-entry-details">Professor: Aggeliki Barberopoulou</div>
+            
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-title">Portland Adult Education</div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">English Tutor</span>
+            <span class="cv-entry-date">Fall 2020-Summer 2021</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Classroom Aide</span>
+            <span class="cv-entry-date">Fall 2019</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+          <div class="cv-entry-title">Bowdoin Writing Project</div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Head Writing Assistant</span>
+            <span class="cv-entry-date">Fall 2019 - Spring 2020</span>
+          </div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Writing Assistant</span>
+            <span class="cv-entry-date">Fall 2017 - Spring 2019</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+            <div class="cv-entry-title">Bowdoin Center for Teaching and Learning</div>
+            <div class="cv-entry-subtitle-row">
+              <span class="cv-entry-subtitle">Arabic Tutor</span>
+              <span class="cv-entry-date">Fall 2019 - Spring 2020</span>
+            </div>
+        </div>
+      </section>
+    
+      <section class="cv-section">
+        <h2>Academic Awards and Grants</h2>
+        <ul class="awards-list">
+          <li>National Science Foundation Research Traineeship</li>
+          <li>Sherman David Spector of the Class of 1950 Award</li>
+          <li>Large Paul Nyhus Travel Grant</li>
+          <li>Critical Language Scholar</li>
+          <li>Boren Scholar</li>
+          <li>Bowdoin Book Award</li>
+          <li>Sarah and James Bowdoin Scholar</li>
+          <li>Bowdoin Faculty Scholar</li>
+          <li>Society for Industrial and Applied Mathematics</li>
+          <li>National Merit Scholar</li>
+        </ul>
+      </section>
+    
+      <section class="cv-section">
+        <h2>Service</h2>
+        
+        <div class="cv-entry">
+            <div class="cv-entry-title">EAAMO Urban Data Science & Equitable Cities Working Group</div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Contributor</span>
+            <span class="cv-entry-date">2025</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+            <div class="cv-entry-title">Information+ Conference</div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Program Committee</span>
+            <span class="cv-entry-date">2025</span>
+          </div>
+        </div>
+    
+        <div class="cv-entry">
+            <div class="cv-entry-title">Interdisciplinary Research in Technology & Society Symposium</div>
+          <div class="cv-entry-subtitle-row">
+            <span class="cv-entry-subtitle">Conference Co-Chair</span>
+            <span class="cv-entry-date">2024</span>
+          </div>
+        </div>
+      </section>
+    
+    </div>
