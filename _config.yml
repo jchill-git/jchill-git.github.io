@@ -21,7 +21,7 @@
 title: Joe Hilleary
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal website and portfolio
+  Here are some things about me:
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jhilleary.com" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "jchill-git/jchill-git.github.io"
@@ -87,23 +87,23 @@ nav_links:
     url: /blog
 
   # Social links
-github_username: yourusername
-linkedin_username: yourusername
+github_username: jchill-git
+linkedin_username: joe-hilleary-501ab9156
 
-author:
-  name   : "Joe Hilleary"
-  avatar : "/images/headshot.jpg"
-  bio    : "Data Scientist | Digital Humanist"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jchill-git/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "hhttps://www.linkedin.com/in/joe-hilleary-501ab9156/"
+# author:
+#   name   : "Joe Hilleary"
+#   avatar : "/images/headshot.jpg"
+#   bio    : "Data Scientist | Digital Humanist"
+#   links:
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: "https://"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/jchill-git/"
+#     - label: "LinkedIn"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: "hhttps://www.linkedin.com/in/joe-hilleary-501ab9156/"
 
 footer:
   links:
@@ -132,3 +132,15 @@ footer:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

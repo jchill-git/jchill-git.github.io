@@ -1,36 +1,14 @@
 ---
 layout: default
-title: Portfolio
+title: About Me
 ---
 <div class="hero">
     <div class="container">
-        <h1>Hi, I'm {{ site.title }}</h1>
-        <p>{{ site.description }}</p>
-        <a href="{{ '/about' | relative_url }}" class="cta-button">Learn More About Me</a>
+        <h1>About me</h1>
+        <h2>Some stuff I wrote about myself</h2>
+        <p>I am a public interest technologist. I try my best to build data-driven systems that serve our communities and to think about how to mitigate and avoid the harms that can inadvertently stem from such systems.</p>
+        <p>Originally trained as a digital humanist, I enjoy applying a computational lens to humanist questions and a humanist lens to computational questions.</p>
+        <p>Currently, I work as a data scientist at the T, where I build models and visualizations to support the operations of America’s fourth largest transit system.</p>
+        <p>This website is a place for me to share my personal projects and thoughts and does not express the views or opinions of my employer.</p>
     </div>
 </div>
-
-<section class="projects-section">
-    <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-grid">
-            {% for project in site.projects %}
-            <div class="project-card">
-                <div class="project-image">{{ project.emoji }}</div>
-                <div class="project-content">
-                    <h3>{{ project.title }}</h3>
-                    <p>{{ project.description }}</p>
-                    <div class="project-tags">
-                        {% for tag in project.tags %}
-                        <span class="tag">{{ tag }}</span>
-                        {% endfor %}
-                    </div>
-                    {% if project.link %}
-                    <a href="{{ project.link }}" class="project-link">View Project →</a>
-                    {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
