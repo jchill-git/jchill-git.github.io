@@ -2,9 +2,9 @@
 title: Harry Potter and the Goodreads Comments
 description: My very first Digital Humanities project from waaaay back in undergrad
 link: https://sites.google.com/view/gk-jh-finalproject/home
-date: 2025-11-01
+date: 2020-05-13
 image: /assets/images/wizard_290401.png
-
+order: 12
 ---
 
 Optional: Add more detailed content here about your project.
