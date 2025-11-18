@@ -7,19 +7,19 @@
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Reverse Engineering Fox Data Journalism" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Fox news chart on gun violence" />
-<meta property="og:description" content="Fox news chart on gun violence" />
+<meta name="description" content="Examining how data and data visualization can mislead" />
+<meta property="og:description" content="Examining how data and data visualization can mislead" />
 <link rel="canonical" href="http://localhost:4000/projects/foxarticle/" />
 <meta property="og:url" content="http://localhost:4000/projects/foxarticle/" />
 <meta property="og:site_name" content="Joe Hilleary" />
 <meta property="og:image" content="http://localhost:4000/assets/images/analysis_1743054.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-11-01T00:00:00-04:00" />
+<meta property="article:published_time" content="2022-11-15T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/images/analysis_1743054.png" />
 <meta property="twitter:title" content="Reverse Engineering Fox Data Journalism" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-11-01T00:00:00-04:00","datePublished":"2025-11-01T00:00:00-04:00","description":"Fox news chart on gun violence","headline":"Reverse Engineering Fox Data Journalism","image":"http://localhost:4000/assets/images/analysis_1743054.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/foxarticle/"},"url":"http://localhost:4000/projects/foxarticle/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-15T00:00:00-05:00","datePublished":"2022-11-15T00:00:00-05:00","description":"Examining how data and data visualization can mislead","headline":"Reverse Engineering Fox Data Journalism","image":"http://localhost:4000/assets/images/analysis_1743054.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/foxarticle/"},"url":"http://localhost:4000/projects/foxarticle/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Joe Hilleary" /></head>
 <body><header class="site-header" role="banner">
@@ -34,7 +34,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/">Bio</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/resume/">C.V</a></div>
+        <div class="trigger"><a class="page-link" href="/">Bio</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/resume/">C.V.</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -50,8 +50,8 @@
         <!-- Project Header -->
         <header class="project-header">
             <h1>Reverse Engineering Fox Data Journalism</h1>
-            <p class="project-meta">Fox news chart on gun violence</p>
-            
+            <h2>November 2022</h2>
+            <p class="project-meta">Examining how data and data visualization can mislead</p>
             <div class="project-links">
                 
                 
@@ -67,26 +67,31 @@
 
         <!-- Project Content -->
         <div class="project-content">
-            <p>Optional: Add more detailed content here about your project.</p>
+            <p>This project came out of my NSF Research Traineeship. Along with other fellows, I spent a year exploring “The Dark Arts of Data Science,” essentially how people manipulate data and data visualization to mislead. Toward the end of the first semester, our PI tossed us this article, in which Fox comes to some rather surprising conclusions about gun violence that are contrary to much of the established research on the subject. All of their data came from reputable and public sources, so we wanted to see if we could recreate their work and determine which, if any, of the techniques we’d studied were involved.</p>
 
-<h2 id="features">Features</h2>
+<p>The code and data for recreating the chart from the article, along with what I believe to be a better version of the same vis can be found <a href="https://github.com/jchill-git/gun_violence_proj">here</a>.</p>
+
+<h2 id="topics">Topics</h2>
 <ul>
-  <li>Feature 1</li>
-  <li>Feature 2</li>
-  <li>Feature 3</li>
+  <li>Data Journalism</li>
+  <li>Data Vis</li>
+  <li>Misinformation</li>
 </ul>
 
 <h2 id="technologies-used">Technologies Used</h2>
-<p>Details about the tech stack…</p>
+<ul>
+  <li>Matplotlib</li>
+  <li>Pandas</li>
+</ul>
 
 <h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<p>What you learned building this…</p>
+<p>There were a few, neglible differences between the data we saw in the sources and the data in Fox’s chart, but none that changed the general take-away of the plot. Instead, their chart made an essentially true, but measured claim – gun murders are not strongly correlated at the state level with estimates of the proportion of homes with a gun in them. That was not the way the the chart was then contextualized in the body of the article. This finding kicked off a whole new avenue of inquiry where we started studying disconnect between the plots in data journalism articles and the narratives that frame them.</p>
 
         </div>
 
         <!-- Back to Portfolio -->
         <div class="back-link">
-            <a href="/">← Back to Portfolio</a>
+            <a href="/projects">← Back to Portfolio</a>
         </div>
     </div>
 </article>
@@ -95,7 +100,7 @@
     <div class="wrapper">
       <div class="footer-content">
         <p>&copy; 2025 Joe Hilleary. All rights reserved.</p>
-        <p>Created with Jekyll & Minimal Mistakes</p>
+        <p>Created with Jekyll & Minima. Icons from Freepik.</p>
         <div class="social-links">
           
           <a href="https://github.com/jchill-git" target="_blank">GitHub</a>

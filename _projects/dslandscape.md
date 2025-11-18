@@ -1,9 +1,9 @@
 ---
-title: Translation Alignment User Study
+title: Tufts Data Science Landscape Report
 description: A game in C or a for a STM32L152C Discovery board
 link: https://github.com/jchill-git/Game_for_STM32L152C
-date: 2022-04-20
-image: assets/images/halloween_13746239.png
+date: 2023-10-20
+image: assets/images/nature_12051181.png
 order: 1
 ---
 

@@ -7,19 +7,19 @@
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Isnad Disambiguation" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Diambiguated scholars using graphs of tradional citations in Arabic manuscripts" />
-<meta property="og:description" content="Diambiguated scholars using graphs of tradional citations in Arabic manuscripts" />
+<meta name="description" content="Diambiguating scholars using graphs of tradional citations in Arabic manuscripts" />
+<meta property="og:description" content="Diambiguating scholars using graphs of tradional citations in Arabic manuscripts" />
 <link rel="canonical" href="http://localhost:4000/projects/isnads/" />
 <meta property="og:url" content="http://localhost:4000/projects/isnads/" />
 <meta property="og:site_name" content="Joe Hilleary" />
 <meta property="og:image" content="http://localhost:4000/assets/images/quran_3858812.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-12-05T00:00:00-05:00" />
+<meta property="article:published_time" content="2022-12-08T00:00:00-05:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/images/quran_3858812.png" />
 <meta property="twitter:title" content="Isnad Disambiguation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-05T00:00:00-05:00","datePublished":"2023-12-05T00:00:00-05:00","description":"Diambiguated scholars using graphs of tradional citations in Arabic manuscripts","headline":"Isnad Disambiguation","image":"http://localhost:4000/assets/images/quran_3858812.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/isnads/"},"url":"http://localhost:4000/projects/isnads/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-08T00:00:00-05:00","datePublished":"2022-12-08T00:00:00-05:00","description":"Diambiguating scholars using graphs of tradional citations in Arabic manuscripts","headline":"Isnad Disambiguation","image":"http://localhost:4000/assets/images/quran_3858812.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/isnads/"},"url":"http://localhost:4000/projects/isnads/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Joe Hilleary" /></head>
 <body><header class="site-header" role="banner">
@@ -34,7 +34,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/">Bio</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/resume/">C.V</a></div>
+        <div class="trigger"><a class="page-link" href="/">Bio</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/resume/">C.V.</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -50,8 +50,8 @@
         <!-- Project Header -->
         <header class="project-header">
             <h1>Isnad Disambiguation</h1>
-            <p class="project-meta">Diambiguated scholars using graphs of tradional citations in Arabic manuscripts</p>
-            
+            <h2>December 2022</h2>
+            <p class="project-meta">Diambiguating scholars using graphs of tradional citations in Arabic manuscripts</p>
             <div class="project-links">
                 
                 
@@ -67,26 +67,32 @@
 
         <!-- Project Content -->
         <div class="project-content">
-            <p>Optional: Add more detailed content here about your project.</p>
+            <p><em>Isnads</em> are a traditional form of Arabic citation found in many manuscripts. Unlike modern, Western-style citations, <em>isnads</em> contain the full chain of transmission back to whomever is considered the original source. As a result, they are of immense interest to historians studying scholarly networks. Unfortunately, many scholars have similar names and disambiguating individuals in the reference chain is a time consuming manual task. Building very directly off the work of <a href="http://hnr2021.historicalnetworkresearch.org/?page_id=333">Ryan Muther</a>, who was kind enough to share her code and time, my partner and I evaluated the effectiveness of a couple different approaches to the disambiguation task. In particular, we looked at contrastive embeddings and social features based on the similarity of <em>isnad</em> graphs.</p>
 
-<h2 id="features">Features</h2>
+<p>Our code and final presentation can be found <a href="https://github.com/jchill-git/isnad_intrigue/tree/main">here</a>.</p>
+
+<h2 id="topics">Topics</h2>
 <ul>
-  <li>Feature 1</li>
-  <li>Feature 2</li>
-  <li>Feature 3</li>
+  <li>Digital Humanities</li>
+  <li>Networks</li>
+  <li>Word embeddings</li>
 </ul>
 
 <h2 id="technologies-used">Technologies Used</h2>
-<p>Details about the tech stack…</p>
+<ul>
+  <li>NetworkX</li>
+  <li>Torch</li>
+  <li>BERT</li>
+</ul>
 
 <h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<p>What you learned building this…</p>
+<p>This was the first big technical project of my master’s. We were building off and comparing to published work from the folks at <a href="https://kitab-project.org/">KITAB</a>, so the foundation was really well laid, but ultimately our original idea of applying graph methods, just didn’t work particularly well. We brought in contrastive, surface-form embeddings mostly as a supplement to the graph-based features, but it turned that approach worked way better on its own than mixed with the graph components.</p>
 
         </div>
 
         <!-- Back to Portfolio -->
         <div class="back-link">
-            <a href="/">← Back to Portfolio</a>
+            <a href="/projects">← Back to Portfolio</a>
         </div>
     </div>
 </article>
@@ -95,7 +101,7 @@
     <div class="wrapper">
       <div class="footer-content">
         <p>&copy; 2025 Joe Hilleary. All rights reserved.</p>
-        <p>Created with Jekyll & Minimal Mistakes</p>
+        <p>Created with Jekyll & Minima. Icons from Freepik.</p>
         <div class="social-links">
           
           <a href="https://github.com/jchill-git" target="_blank">GitHub</a>
