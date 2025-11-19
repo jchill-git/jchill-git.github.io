@@ -7,19 +7,19 @@
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="MBTA Communities Act" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A game in C or a for a STM32L152C Discovery board" />
-<meta property="og:description" content="A game in C or a for a STM32L152C Discovery board" />
+<meta name="description" content="A spatial comparison between Milton and Brookline voting patterns on zoning compliance" />
+<meta property="og:description" content="A spatial comparison between Milton and Brookline voting patterns on zoning compliance" />
 <link rel="canonical" href="http://localhost:4000/projects/mbtacommunities/" />
 <meta property="og:url" content="http://localhost:4000/projects/mbtacommunities/" />
 <meta property="og:site_name" content="Joe Hilleary" />
 <meta property="og:image" content="http://localhost:4000/assets/images/vacation_2278467.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-04-20T00:00:00-04:00" />
+<meta property="article:published_time" content="2024-04-29T00:00:00-04:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/images/vacation_2278467.png" />
 <meta property="twitter:title" content="MBTA Communities Act" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-04-20T00:00:00-04:00","datePublished":"2024-04-20T00:00:00-04:00","description":"A game in C or a for a STM32L152C Discovery board","headline":"MBTA Communities Act","image":"http://localhost:4000/assets/images/vacation_2278467.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/mbtacommunities/"},"url":"http://localhost:4000/projects/mbtacommunities/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-04-29T00:00:00-04:00","datePublished":"2024-04-29T00:00:00-04:00","description":"A spatial comparison between Milton and Brookline voting patterns on zoning compliance","headline":"MBTA Communities Act","image":"http://localhost:4000/assets/images/vacation_2278467.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/mbtacommunities/"},"url":"http://localhost:4000/projects/mbtacommunities/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Joe Hilleary" /></head>
 <body><header class="site-header" role="banner">
@@ -51,7 +51,7 @@
         <header class="project-header">
             <h1>MBTA Communities Act</h1>
             <h2>April 2024</h2>
-            <p class="project-meta">A game in C or a for a STM32L152C Discovery board</p>
+            <h2 class="project-meta">A spatial comparison between Milton and Brookline voting patterns on zoning compliance</h2>
             <div class="project-links">
                 
                 
@@ -67,20 +67,30 @@
 
         <!-- Project Content -->
         <div class="project-content">
-            <p>Optional: Add more detailed content here about your project.</p>
+            <p>In an attempt to expand the pool of housing available, the Massachussetts state legislature passed the MBTA Communities Act. This law requires towns served by the Massachusetts Bay Transportation Authority to “have at least one zoning district of reasonable size in which multi-family housing is permitted.” Despite the modesty of the demand (no actual construction was required) NIMBYist backlash was vociferous. The first cities impacted by the law were those served by rapid transit. These included Milton and Brookline which both had major opposition movements pushing the towns to defy the law and refuse to comply with the zoning requirements.</p>
 
-<h2 id="features">Features</h2>
+<p>The goal of this project was to explore the spatial and demographic components of that opposition based on precinct level results from ballet initiatives in each town. You can find a more detailed write-up of the work <a href="/assets/documents/Final Paper.docx">here</a> or check out this <a href="/assets/documents/poster.pdf">poster</a>.</p>
+<h2 id="topics">Topics</h2>
 <ul>
-  <li>Feature 1</li>
-  <li>Feature 2</li>
-  <li>Feature 3</li>
+  <li>Urban Data Science</li>
+  <li>Geospatial Data</li>
+  <li>Principle Components Analysis</li>
 </ul>
 
 <h2 id="technologies-used">Technologies Used</h2>
-<p>Details about the tech stack…</p>
+<ul>
+  <li>R</li>
+  <li>sf</li>
+  <li>tmap</li>
+  <li>dplyr</li>
+  <li>regeoda</li>
+  <li>spdep</li>
+  <li>lmtest</li>
+  <li>ggplot2</li>
+</ul>
 
 <h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<p>What you learned building this…</p>
+<p>This project helped shake the rust off of my R, which I hadn’t really used since stats classes in undergrad. I was hampered somewhat in my initial goal of examining regional trends in non-compliance at the township level by the availability of data at the time. Better data has since been collected by the <a href="https://www.bostonglobe.com/2024/05/07/business/boston-housing-mbta-communities-law-towns/">Boston Globe (paywalled)</a>, leading me to want to revisit this analysis at some point.</p>
 
         </div>
 

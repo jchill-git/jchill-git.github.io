@@ -7,19 +7,19 @@
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Translation Alignment User Study" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A game in C or a for a STM32L152C Discovery board" />
-<meta property="og:description" content="A game in C or a for a STM32L152C Discovery board" />
+<meta name="description" content="Evaluation of the impact of word-level alignments on reader comprehension" />
+<meta property="og:description" content="Evaluation of the impact of word-level alignments on reader comprehension" />
 <link rel="canonical" href="http://localhost:4000/projects/alignmentstudy/" />
 <meta property="og:url" content="http://localhost:4000/projects/alignmentstudy/" />
 <meta property="og:site_name" content="Joe Hilleary" />
 <meta property="og:image" content="http://localhost:4000/assets/images/wolf_6018058.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-05-20T00:00:00-04:00" />
+<meta property="article:published_time" content="2024-05-04T00:00:00-04:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/images/wolf_6018058.png" />
 <meta property="twitter:title" content="Translation Alignment User Study" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-20T00:00:00-04:00","datePublished":"2024-05-20T00:00:00-04:00","description":"A game in C or a for a STM32L152C Discovery board","headline":"Translation Alignment User Study","image":"http://localhost:4000/assets/images/wolf_6018058.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/alignmentstudy/"},"url":"http://localhost:4000/projects/alignmentstudy/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-04T00:00:00-04:00","datePublished":"2024-05-04T00:00:00-04:00","description":"Evaluation of the impact of word-level alignments on reader comprehension","headline":"Translation Alignment User Study","image":"http://localhost:4000/assets/images/wolf_6018058.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/alignmentstudy/"},"url":"http://localhost:4000/projects/alignmentstudy/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Joe Hilleary" /></head>
 <body><header class="site-header" role="banner">
@@ -51,7 +51,7 @@
         <header class="project-header">
             <h1>Translation Alignment User Study</h1>
             <h2>May 2024</h2>
-            <p class="project-meta">A game in C or a for a STM32L152C Discovery board</p>
+            <h2 class="project-meta">Evaluation of the impact of word-level alignments on reader comprehension</h2>
             <div class="project-links">
                 
                 
@@ -67,20 +67,26 @@
 
         <!-- Project Content -->
         <div class="project-content">
-            <p>Optional: Add more detailed content here about your project.</p>
+            <p>Translation alignments used to be an unavoidable artifact of machine translation, but with the shift to neural networks and longer tokens, they were left behind. So, when I was a kid and used Google Translate you could hover over a word and see it aligned, but now you can only see section-level alignments. This interface change struck me as a loss for the user. Intuitively, the more fine-grained the visualization the more recourse the user has to diagnose a poor translation, but I found very little work had actually been done to measure the scale of that loss.</p>
 
-<h2 id="features">Features</h2>
+<p>In my experiment, I presented users who had taken at least one semester of a college-level language course, but who had no exposure to Finno-Ugric languages, with a passage from <em>Libahunt</em>, a classic Estonian play about werewolves, that was – not coincidently – the only Estonian text on Project Gutenberg. One group had automated alignments visualized at the word level, the other, the section level. Both were then asked to complete a cloze-task in Estonian where the sentences were about, but not from, the passage and used only vocabulary and grammatical structures found within it. The results showed significant benefits for the users receiving the word-level alignments, not only for their understanding of vocabulary, but also for how Estonian functions syntactically. If you want more detail, you can check out my <a href="https://www.proquest.com/docview/3058409134?sourcetype=Dissertations%20&amp;%20Theses">master’s thesis</a>.</p>
+
+<h2 id="topics">Topics</h2>
 <ul>
-  <li>Feature 1</li>
-  <li>Feature 2</li>
-  <li>Feature 3</li>
+  <li>User Study</li>
+  <li>Human-Computer Interaction</li>
+  <li>Translation Alignment</li>
+  <li>Digital Libraries</li>
 </ul>
 
 <h2 id="technologies-used">Technologies Used</h2>
-<p>Details about the tech stack…</p>
+<ul>
+  <li>Beyond Translation</li>
+  <li>ChatGPT (as an alignment model)</li>
+</ul>
 
 <h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<p>What you learned building this…</p>
+<p>This was my first human-subject study and the first time navigating all the IRB-related paperwork that goes along with that – definitely an educational process.</p>
 
         </div>
 

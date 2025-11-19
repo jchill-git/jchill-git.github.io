@@ -7,19 +7,19 @@
 <meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="UD Tree Alignment" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A game in C or a for a STM32L152C Discovery board" />
-<meta property="og:description" content="A game in C or a for a STM32L152C Discovery board" />
+<meta name="description" content="An automated appraoch to translation aligment using syntax trees" />
+<meta property="og:description" content="An automated appraoch to translation aligment using syntax trees" />
 <link rel="canonical" href="http://localhost:4000/projects/udlalignment/" />
 <meta property="og:url" content="http://localhost:4000/projects/udlalignment/" />
 <meta property="og:site_name" content="Joe Hilleary" />
 <meta property="og:image" content="http://localhost:4000/assets/images/chain_14763934.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-04-20T00:00:00-04:00" />
+<meta property="article:published_time" content="2024-05-03T00:00:00-04:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/images/chain_14763934.png" />
 <meta property="twitter:title" content="UD Tree Alignment" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-04-20T00:00:00-04:00","datePublished":"2024-04-20T00:00:00-04:00","description":"A game in C or a for a STM32L152C Discovery board","headline":"UD Tree Alignment","image":"http://localhost:4000/assets/images/chain_14763934.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/udlalignment/"},"url":"http://localhost:4000/projects/udlalignment/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-03T00:00:00-04:00","datePublished":"2024-05-03T00:00:00-04:00","description":"An automated appraoch to translation aligment using syntax trees","headline":"UD Tree Alignment","image":"http://localhost:4000/assets/images/chain_14763934.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/projects/udlalignment/"},"url":"http://localhost:4000/projects/udlalignment/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Joe Hilleary" /></head>
 <body><header class="site-header" role="banner">
@@ -50,8 +50,8 @@
         <!-- Project Header -->
         <header class="project-header">
             <h1>UD Tree Alignment</h1>
-            <h2>April 2024</h2>
-            <p class="project-meta">A game in C or a for a STM32L152C Discovery board</p>
+            <h2>May 2024</h2>
+            <h2 class="project-meta">An automated appraoch to translation aligment using syntax trees</h2>
             <div class="project-links">
                 
                 
@@ -67,20 +67,28 @@
 
         <!-- Project Content -->
         <div class="project-content">
-            <p>Optional: Add more detailed content here about your project.</p>
+            <p>This project started as a class final and evolved into a section of my master’s thesis. During my work at the Perseus Project, I’d come up against the limits of automated translation alignment models for low-resource languages. Most state-of-the-art alignment models demanded large parallel training copora between the languages being aligned, something that simply doesn’t exist for many low-resource language pairs. At the same time, coverage of some of those languages was expanding for Universal Dependencies (UD) parsing models.</p>
 
-<h2 id="features">Features</h2>
+<p>The central thesis of UD is that there is universal parallelism between all human languages, which can be modelled using a finite set of tags and dependency relationships. So I figured, if we took that assumption at face value, we would expect the dependency trees for the same sentence in two languages to have some amount of structural parallelism, given a fairly literal translation. They wouldn’t be identical, of course, but if the UD assumption were true, there ought to be something that could be exploited to map tokens from one language onto the other. This approach was both a means of testing the UD hypothesis, and also, if it worked, a potentially new method to support the automated alignment of low-resource language pairs, since UD parsers can be trained on monolingual data sets.</p>
+
+<p>My algorithm was ultimately fairly simple. I created two trees from parallel sentences then recursively mapped the nodes in each tree based on topographical similarity. I then tested the algorithm on a gold-standard aligned English translation of the first book of the <em>Iliad</em>. You can read all about my findings in the second chapter of my <a href="https://www.proquest.com/docview/3058409134?sourcetype=Dissertations%20&amp;%20Theses">thesis</a> and examine the code <a href="https://github.com/jchill-git/translation_alignment">here</a></p>
+
+<h2 id="topics">Topics</h2>
 <ul>
-  <li>Feature 1</li>
-  <li>Feature 2</li>
-  <li>Feature 3</li>
+  <li>Syntax Trees</li>
+  <li>Translation Alignment</li>
+  <li>Low Resource Languages</li>
 </ul>
 
 <h2 id="technologies-used">Technologies Used</h2>
-<p>Details about the tech stack…</p>
+<ul>
+  <li>Stanza</li>
+  <li>NLTK</li>
+  <li>NetworkX</li>
+</ul>
 
 <h2 id="challenges--learnings">Challenges &amp; Learnings</h2>
-<p>What you learned building this…</p>
+<p>While the version of the algorithm I tested wasn’t accurate enough to be really useful, it did match the performance of the state-of-the-art language-agnostic model, despite being much less complex. This finding suggests that a more sophisticated iteration, perhaps involving a more nuanced measure of node similarity could potentially improve upon its results. Additionally, that fact that it worked at all suggests that some amount of structural parallelism was exploitable in the UD trees, though admittedly further testing should be done on language pairs more distantly related then Ancient Greek and English.</p>
 
         </div>
 

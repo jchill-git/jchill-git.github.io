@@ -1,21 +1,23 @@
 ---
 title: Predicting Boston Construction
-description: A game in C or a for a STM32L152C Discovery board
-link: https://github.com/jchill-git/Game_for_STM32L152C
-date: 2023-12-20
+description: A geographically-weighted neural network
+link: 
+date: 2023-12-13
 image: assets/images/tower_16443041.png
 order: 3
 ---
 
-Optional: Add more detailed content here about your project.
+The Boston area, like most major US cities, suffers from a shortage of housing. We wnated to better understand how location impacts the kind of projects that get built, so we turned to Boston building permit data. We then evaluated the usefulness of a geographically-weighted neural network for predicting the type of new construction on a lot given its location. Our model was trained on two sets of geographically-linked features, one based on demographic data from the Boston Area Research Initiative and the other, representational embeddings of satellite images from Google Maps generated using Tile2Vec. 
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+## Topics
+- Urban Data Science
+- Neural Networks
+- Geospatial Data
 
 ## Technologies Used
-Details about the tech stack...
+- Torch
+- Tile2Vec
+- Google Maps API
 
 ## Challenges & Learnings
-What you learned building this...
+The trickiest part about this project was figuring out how to implement a GWANN. We were basing the architecture on a paper, but had a heck of time getting it set up in Torch.
