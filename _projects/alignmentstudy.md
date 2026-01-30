@@ -4,7 +4,7 @@ description: Evaluation of the impact of word-level alignments on reader compreh
 link: https://www.proquest.com/docview/3058409134?sourcetype=Dissertations%20&%20Theses
 date: 2024-05-4
 image: assets/images/wolf_6018058.png
-order: 1
+
 ---
 
 Translation alignments used to be an unavoidable artifact of machine translation, but with the shift to neural networks and longer tokens, they were left behind. So, when I was a kid and used Google Translate you could hover over a word and see it aligned, but now you can only see section-level alignments. This interface change struck me as a loss for the user. Intuitively, the more fine-grained the visualization the more recourse the user has to diagnose a poor translation, but I found very little work had actually been done to measure the scale of that loss.

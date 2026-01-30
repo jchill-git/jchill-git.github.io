@@ -4,7 +4,7 @@ description: Map of MBTA bus routes by earliest year in which a bus ran on a dir
 link: https://bsky.app/profile/urban-data.bsky.social/post/3m7kziwtq7s24
 date: 2024-12-9
 image: assets/images/bus_1824553.png
-tags: [urban data science, visualization, transportation]
+
 ---
 
 This project was part of the [EAAMO Urban Data Science](https://urban-data-science-eaamo.github.io/) working group's response to the 2025 #30DayMapChallenge on Bluesky. 
